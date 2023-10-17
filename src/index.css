@@ -1,13 +1,102 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.loading{
+  position: fixed;
+  top: 100px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #272b30;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.item-zoom{
+  transition: all 1s;
+ 
+}
+.item-zoom:hover{
+  transform: scale(1.1);
+  z-index: 10;
+  overflow: hidden;
+
+}
+.curser{
+  cursor: pointer;
+}
+.imgShow{
+  height: 75%;
+  width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.image-container {
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+
 }
+h2{
+ 
+    color: rgb(64, 69, 83);
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 12px;
+
+}
+
+.required-input{
+
+  position: relative;
+}
+
+.required-indicator{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: red;
+  font-weight: bold;
+}
+
+.no-text-decoration {
+  text-decoration: none;
+  color: black;
+
+}
+
+.star {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color :white;
+  width: 8%;
+  height: 8%;
+}
+
+.star.active {
+  color: yellow;
+}
+
+.my-alert {
+  /* Your CSS styles for the alert */
+  /* Example styles: */
+  background-color: red;
+  color: white;
+  padding: 10px;
+  opacity: 1; /* Initially visible */
+  height: auto; /* Initially full height */
+  animation-name: fadeOut;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
