@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Shaimaa-Elbanna/Shem-Shop/static/css/main.7b93a6ab.css",
-    "main.js": "/Shaimaa-Elbanna/Shem-Shop/static/js/main.285eefb1.js",
+    "main.js": "/Shaimaa-Elbanna/Shem-Shop/static/js/main.57ff6cd7.js",
     "static/js/787.a116e0ce.chunk.js": "/Shaimaa-Elbanna/Shem-Shop/static/js/787.a116e0ce.chunk.js",
     "static/media/fa-solid-900.ttf": "/Shaimaa-Elbanna/Shem-Shop/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/fa-brands-400.ttf": "/Shaimaa-Elbanna/Shem-Shop/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
@@ -17,11 +17,11 @@
     "static/media/slick.woff": "/Shaimaa-Elbanna/Shem-Shop/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Shaimaa-Elbanna/Shem-Shop/index.html",
     "main.7b93a6ab.css.map": "/Shaimaa-Elbanna/Shem-Shop/static/css/main.7b93a6ab.css.map",
-    "main.285eefb1.js.map": "/Shaimaa-Elbanna/Shem-Shop/static/js/main.285eefb1.js.map",
+    "main.57ff6cd7.js.map": "/Shaimaa-Elbanna/Shem-Shop/static/js/main.57ff6cd7.js.map",
     "787.a116e0ce.chunk.js.map": "/Shaimaa-Elbanna/Shem-Shop/static/js/787.a116e0ce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b93a6ab.css",
-    "static/js/main.285eefb1.js"
+    "static/js/main.57ff6cd7.js"
   ]
 }
