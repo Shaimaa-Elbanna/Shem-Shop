@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/Shaimaa-Elbanna/Shem-Shop.git",
   "name": "fullstackecommerc",
   "version": "0.1.0",
   "private": true,
@@ -35,7 +36,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -56,6 +59,7 @@
     ]
   },
   "devDependencies": {
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "gh-pages": "^6.0.0"
   }
 }

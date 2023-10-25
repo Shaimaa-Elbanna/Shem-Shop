@@ -7,7 +7,6 @@ import { Card, Col, Row } from 'react-bootstrap'
 
 export default function CategoryPage() {
     const { categoryId } = useParams()
-const y =60
     const { allData, loading } = useUrl<AllCat>(`${Url}category?_id=${categoryId}`)
     const category: Category | undefined = allData?.category[0]
     // const subcategory: Category | undefined = allData?.category[0]
